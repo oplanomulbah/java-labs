@@ -7,5 +7,9 @@ public class Main {
         // programs from the dataTypes class
         DataTypes dataTypes = new DataTypes();
         dataTypes.beginner();
+
+        // programs from the Variables class
+        Variables variables = new Variables();
+        variables.beginner();
     }
 }
