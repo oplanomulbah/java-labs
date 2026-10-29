@@ -1,5 +1,6 @@
 package exercises.exercise_01_java_basics.VariablesAndDataTypes;
 
+import exercises.exercise_01_java_basics.MathClass.TheMathClass;
 import exercises.exercise_01_java_basics.StringsAndStringMethods.StringAndStringMethods;
 
 public class Main {
@@ -16,6 +17,11 @@ public class Main {
 
         // programs from the StringsAndStringsMethods class
         StringAndStringMethods stringAndStringMethods = new StringAndStringMethods();
-        stringAndStringMethods.beginner();
+        // stringAndStringMethods.beginner();
+
+        // programs from the TheMathClass
+        TheMathClass theMathClass = new TheMathClass();
+        theMathClass.beginner();
+
     }
 }
