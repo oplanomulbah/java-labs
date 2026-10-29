@@ -61,7 +61,5 @@ public class StringAndStringMethods {
         System.out.println(name.toUpperCase(Locale.ROOT));
         System.out.println(name.toLowerCase(Locale.ROOT));
 
-
-
     }
 }
