@@ -19,7 +19,6 @@ public class ArraysInJava {
 
 
         // Example without an Array
-
         int student1 = 85;
         int student2 = 90;
         int student3 = 78;
@@ -30,5 +29,33 @@ public class ArraysInJava {
         for (int studentScore : studentScores) {
             System.out.println(studentScore);
         }
+
+        // understanding an Array length
+        System.out.println(countries.length);
+
+
+        // Multi-dimensional array
+        // int[][] matrix = new int[2][3];
+        int[][] matrix = {
+                {1, 2, 3},
+                {4, 5, 6},
+                {7, 8, 9}
+        };
+
+        for(int row[] : matrix){
+            for(int col : row){
+                System.out.print(col + " ");
+            }
+            System.out.println(" ");
+        }
+
+        int[][] jaggNumbers = {
+                {1, 2},
+                {3, 4, 5},
+                {6, 7, 8, 9}
+        };
+
     }
+
+
 }
