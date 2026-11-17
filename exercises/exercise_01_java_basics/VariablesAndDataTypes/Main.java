@@ -3,6 +3,7 @@ package exercises.exercise_01_java_basics.VariablesAndDataTypes;
 import exercises.exercise_01_java_basics.JavaArrays.ArraysInJava;
 import exercises.exercise_01_java_basics.MathClass.TheMathClass;
 import exercises.exercise_01_java_basics.StringsAndStringMethods.StringAndStringMethods;
+import exercises.exercise_01_java_basics.java_arraylist.ArrayListInJava;
 
 public class Main {
 
@@ -22,11 +23,14 @@ public class Main {
 
         // programs from the TheMathClass
         TheMathClass theMathClass = new TheMathClass();
-//        theMathClass.beginner();
+        // theMathClass.beginner();
 
         // Pragrams from the JavaArray class
         ArraysInJava arraysInJava = new ArraysInJava();
-        arraysInJava.beginner();
+        // arraysInJava.beginner();
+
+        ArrayListInJava arrayListInJava = new ArrayListInJava();
+        arrayListInJava.beginner();
 
     }
 }

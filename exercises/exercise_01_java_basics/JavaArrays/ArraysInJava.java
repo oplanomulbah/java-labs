@@ -55,6 +55,13 @@ public class ArraysInJava {
                 {6, 7, 8, 9}
         };
 
+        int[][][] threeDimentional = {
+                {{1,2,3,4},{2,6,7,8}},
+                {{10,78,54,9}, {9,6,3,4}},
+        };
+
+        System.out.println(threeDimentional.length);
+
     }
 
 
