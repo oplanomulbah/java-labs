@@ -4,6 +4,7 @@ import exercises.exercise_01_java_basics.JavaArrays.ArraysInJava;
 import exercises.exercise_01_java_basics.MathClass.TheMathClass;
 import exercises.exercise_01_java_basics.StringsAndStringMethods.StringAndStringMethods;
 import exercises.exercise_01_java_basics.java_arraylist.ArrayListInJava;
+import exercises.exercise_01_java_basics.java_conditional.JavaConditionalStatements;
 
 public class Main {
 
@@ -30,7 +31,10 @@ public class Main {
         // arraysInJava.beginner();
 
         ArrayListInJava arrayListInJava = new ArrayListInJava();
-        arrayListInJava.beginner();
+       // arrayListInJava.beginner();
+
+        JavaConditionalStatements javaConditionalStatements = new JavaConditionalStatements();
+        javaConditionalStatements.beginner();
 
     }
 }
